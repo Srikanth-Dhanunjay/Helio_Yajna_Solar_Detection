@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import math
 
 def gsd(lat_deg):
-    return 156543.03392 * math.cos(math.radians(lat_deg)) / (2**20)
+    return (156543.03392 * math.cos(math.radians(lat_deg)) / (2**20))/2
 load_dotenv()
 MODEL_PATH = os.getenv("MODEL_PATH", "trained_model/model.pt")
 INPUT_FILE = os.getenv("INPUT_FILE", "input_data/input.xlsx")
