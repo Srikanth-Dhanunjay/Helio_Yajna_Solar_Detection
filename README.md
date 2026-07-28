@@ -117,7 +117,7 @@ No secrets are baked into the image
 
 ▶️ How to Execute (Evaluation Instructions)
 Step 1️⃣ Clone the Repository
-git clone https://github.com/ROHITHLASHETTI/Helio_Yajna_Solar_Detection_2
+git clone https://github.com/Srikanth-Dhanunjay/Helio_Yajna_Solar_Detection
 cd Helio_Yajna_Solar_Detection_2
 
 ✅ Option A — Quick Run (Recommended for Judges)
